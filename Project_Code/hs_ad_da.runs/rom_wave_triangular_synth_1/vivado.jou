@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Feb 19 16:02:55 2022
+# Process ID: 20508
+# Current directory: D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/20_hs_ad_da/hs_ad_da.runs/rom_wave_triangular_synth_1
+# Command line: vivado.exe -log rom_wave_triangular.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom_wave_triangular.tcl
+# Log file: D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/20_hs_ad_da/hs_ad_da.runs/rom_wave_triangular_synth_1/rom_wave_triangular.vds
+# Journal file: D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/20_hs_ad_da/hs_ad_da.runs/rom_wave_triangular_synth_1\vivado.jou
+#-----------------------------------------------------------
+source rom_wave_triangular.tcl -notrace

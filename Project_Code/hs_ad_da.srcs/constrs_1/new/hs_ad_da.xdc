@@ -1,0 +1,36 @@
+#时序约束
+create_clock -period 20.000 -name sys_clk [get_ports sys_clk]
+
+#IO管脚约束
+set_property -dict {IOSTANDARD LVCMOS15 PACKAGE_PIN R4} [get_ports sys_clk]
+set_property -dict {IOSTANDARD LVCMOS15 PACKAGE_PIN U7} [get_ports sys_rst_n]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN C19} [get_ports {da_data[7]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN C18} [get_ports {da_data[6]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN B16} [get_ports {da_data[5]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN B15} [get_ports {da_data[4]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN C15} [get_ports {da_data[3]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN C14} [get_ports {da_data[2]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN B13} [get_ports {da_data[1]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN C13} [get_ports {da_data[0]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN B20} [get_ports da_clk]
+
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN B22} [get_ports {ad_data[7]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN C22} [get_ports {ad_data[6]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN B21} [get_ports {ad_data[5]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN A21} [get_ports {ad_data[4]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN D14} [get_ports {ad_data[3]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN D15} [get_ports {ad_data[2]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN E16} [get_ports {ad_data[1]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN D16} [get_ports {ad_data[0]}]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN D20} [get_ports ad_clk]
+set_property -dict {IOSTANDARD LVCMOS33 PACKAGE_PIN C20} [get_ports ad_otr]
+
+
+set_property PACKAGE_PIN J20 [get_ports HDMI_CLK_P]
+set_property PACKAGE_PIN J22 [get_ports {HDMI_TX_P[0]}]
+set_property PACKAGE_PIN K21 [get_ports {HDMI_TX_P[1]}]
+set_property PACKAGE_PIN H20 [get_ports {HDMI_TX_P[2]}]
+set_property C_CLK_INPUT_FREQ_HZ 300000000 [get_debug_cores dbg_hub]
+set_property C_ENABLE_CLK_DIVIDER false [get_debug_cores dbg_hub]
+set_property C_USER_SCAN_CHAIN 1 [get_debug_cores dbg_hub]
+connect_debug_port dbg_hub/clk [get_nets clk_pixel]

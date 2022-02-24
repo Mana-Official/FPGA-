@@ -1,0 +1,2 @@
+rom_wave_sawtooth.v,verilog,xil_defaultlib,../../../../hs_ad_da.srcs/sources_1/ip/rom_wave_sawtooth/sim/rom_wave_sawtooth.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

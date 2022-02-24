@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Feb 19 09:58:24 2022
+# Process ID: 14548
+# Current directory: D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/20_hs_ad_da/hs_ad_da.runs/ila_ram_datain_synth_1
+# Command line: vivado.exe -log ila_ram_datain.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ila_ram_datain.tcl
+# Log file: D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/20_hs_ad_da/hs_ad_da.runs/ila_ram_datain_synth_1/ila_ram_datain.vds
+# Journal file: D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/20_hs_ad_da/hs_ad_da.runs/ila_ram_datain_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ila_ram_datain.tcl -notrace

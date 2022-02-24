@@ -1,0 +1,551 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Feb 20 19:09:47 2022
+# Process ID: 9168
+# Current directory: D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2
+# Command line: vivado.exe -log hs_ad_da.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hs_ad_da.tcl
+# Log file: D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/hs_ad_da.vds
+# Journal file: D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source hs_ad_da.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/IP_Users'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/English-software/VIVADO2019/Vivado/2019.2/data/ip'.
+Command: synth_design -top hs_ad_da -part xc7a100tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5156 
+WARNING: [Synth 8-6901] identifier 'cnt_xhs' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_grid.v:49]
+WARNING: [Synth 8-6901] identifier 'cnt_pixel' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_grid.v:53]
+WARNING: [Synth 8-992] wea is already implicitly declared earlier [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:72]
+WARNING: [Synth 8-6901] identifier 'addrb' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:36]
+WARNING: [Synth 8-6901] identifier 'addrb' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:38]
+WARNING: [Synth 8-6901] identifier 'addrb' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:38]
+WARNING: [Synth 8-6901] identifier 'addrb' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:43]
+WARNING: [Synth 8-6901] identifier 'cnt_pixel' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:43]
+WARNING: [Synth 8-6901] identifier 'cnt_xhs' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:44]
+WARNING: [Synth 8-6901] identifier 'doutb' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:44]
+WARNING: [Synth 8-6901] identifier 'wea' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:55]
+WARNING: [Synth 8-6901] identifier 'addra' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:56]
+WARNING: [Synth 8-6901] identifier 'addra' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:56]
+WARNING: [Synth 8-6901] identifier 'rise_Vs' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:65]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:56]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:57]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:58]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:59]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:60]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:62]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:63]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:64]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:65]
+WARNING: [Synth 8-2507] parameter declaration becomes local in video_driver with formal parameter declaration list [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:66]
+WARNING: [Synth 8-992] locked is already implicitly declared earlier [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:157]
+WARNING: [Synth 8-992] clk_pixel is already implicitly declared earlier [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:158]
+WARNING: [Synth 8-992] clk_pixel_x5 is already implicitly declared earlier [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:158]
+WARNING: [Synth 8-992] vid_pVDE is already implicitly declared earlier [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:170]
+WARNING: [Synth 8-992] vid_pHSync is already implicitly declared earlier [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:170]
+WARNING: [Synth 8-992] vid_pVSync is already implicitly declared earlier [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:170]
+WARNING: [Synth 8-6901] identifier 'valid_grid' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:154]
+WARNING: [Synth 8-6901] identifier 'valid_waveform' is used before its declaration [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:154]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1044.137 ; gain = 239.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'hs_ad_da' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:23]
+	Parameter wave_sine bound to: 2'b00 
+	Parameter wave_triangular bound to: 2'b01 
+	Parameter wave_sawtooth bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'da_wave_send' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/da_wave_send.v:23]
+	Parameter FREQ_ADJ bound to: 8'b00000000 
+INFO: [Synth 8-6155] done synthesizing module 'da_wave_send' (1#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/da_wave_send.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rom_256x8b' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/rom_256x8b_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom_256x8b' (2#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/rom_256x8b_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'rom_wave_triangular' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/rom_wave_triangular_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom_wave_triangular' (3#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/rom_wave_triangular_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'rom_wave_sawtooth' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/rom_wave_sawtooth_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom_wave_sawtooth' (4#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/rom_wave_sawtooth_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'vio_wave_select' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/vio_wave_select_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_wave_select' (5#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/vio_wave_select_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ad_wave_rec' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/ad_wave_rec.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ad_wave_rec' (6#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/ad_wave_rec.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:132]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (7#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'rgb2dvi_0' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/rgb2dvi_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rgb2dvi_0' (8#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/rgb2dvi_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_pixel' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/clk_wiz_pixel_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_pixel' (9#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/clk_wiz_pixel_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'video_driver' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:24]
+	Parameter multiple bound to: 1 - type: integer 
+	Parameter H_SYNC bound to: 44 - type: integer 
+	Parameter H_BACK bound to: 148 - type: integer 
+	Parameter H_DISP bound to: 1920 - type: integer 
+	Parameter H_FRONT bound to: 88 - type: integer 
+	Parameter H_TOTAL bound to: 2200 - type: integer 
+	Parameter V_SYNC bound to: 12'b000000000101 
+	Parameter V_BACK bound to: 12'b000000100100 
+	Parameter V_DISP bound to: 12'b010000111000 
+	Parameter V_FRONT bound to: 12'b000000000100 
+	Parameter V_TOTAL bound to: 12'b010001100101 
+INFO: [Synth 8-6155] done synthesizing module 'video_driver' (10#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/video_driver.v:24]
+INFO: [Synth 8-6157] synthesizing module 'dry_grid' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_grid.v:27]
+	Parameter loc_1 bound to: 191 - type: integer 
+	Parameter loc_2 bound to: 383 - type: integer 
+	Parameter loc_3 bound to: 575 - type: integer 
+	Parameter loc_4 bound to: 767 - type: integer 
+	Parameter loc_5 bound to: 959 - type: integer 
+	Parameter loc_6 bound to: 1151 - type: integer 
+	Parameter loc_7 bound to: 1343 - type: integer 
+	Parameter loc_8 bound to: 1535 - type: integer 
+	Parameter loc_9 bound to: 1727 - type: integer 
+	Parameter loc_10 bound to: 1919 - type: integer 
+	Parameter mid bound to: 540 - type: integer 
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_grid.v:106]
+INFO: [Synth 8-6157] synthesizing module 'ila_grid' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/ila_grid_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_grid' (11#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/ila_grid_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_grid'. This will prevent further optimization [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_grid.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'dry_grid' (12#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_grid.v:27]
+INFO: [Synth 8-6157] synthesizing module 'dry_waveform' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (13#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/blk_mem_gen_0_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:126]
+INFO: [Synth 8-6157] synthesizing module 'ila_ram_datain' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/ila_ram_datain_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_ram_datain' (14#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/ila_ram_datain_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:135]
+INFO: [Synth 8-6157] synthesizing module 'ila_bram_dataput' [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/ila_bram_dataput_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_bram_dataput' (15#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/.Xil/Vivado-9168-PC-20200514NKPU/realtime/ila_bram_dataput_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_ram_datain'. This will prevent further optimization [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:126]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'blk_mem_gen_0'. This will prevent further optimization [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:75]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_bram_dataout'. This will prevent further optimization [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:135]
+INFO: [Synth 8-6155] done synthesizing module 'dry_waveform' (16#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/dry_waveform.v:23]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_wave_select'. This will prevent further optimization [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:94]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:132]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_ad_wave_rec'. This will prevent further optimization [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:123]
+INFO: [Synth 8-6155] done synthesizing module 'hs_ad_da' (17#1) [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/new/hs_ad_da.v:23]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[7]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[6]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[5]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[4]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[3]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[2]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[1]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[0]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_otr
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1091.707 ; gain = 287.520
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1091.707 ; gain = 287.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1091.707 ; gain = 287.520
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1091.707 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/clk_wiz_pixel/clk_wiz_pixel/clk_wiz_pixel_in_context.xdc] for cell 'clk_wiz_pixel'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/clk_wiz_pixel/clk_wiz_pixel/clk_wiz_pixel_in_context.xdc] for cell 'clk_wiz_pixel'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_0'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_0'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rom_256x8b/rom_256x8b/rom_256x8b_in_context.xdc] for cell 'rom_wave_sine'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rom_256x8b/rom_256x8b/rom_256x8b_in_context.xdc] for cell 'rom_wave_sine'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc] for cell 'HDMI_show'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc] for cell 'HDMI_show'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/ila_grid/ila_grid/ila_grid_in_context.xdc] for cell 'dry_grid/ila_grid'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/ila_grid/ila_grid/ila_grid_in_context.xdc] for cell 'dry_grid/ila_grid'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'dry_waveform/blk_mem_gen_0'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'dry_waveform/blk_mem_gen_0'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/ila_bram_dataput/ila_bram_dataput/ila_bram_dataput_in_context.xdc] for cell 'dry_waveform/ila_bram_dataout'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/ila_bram_dataput/ila_bram_dataput/ila_bram_dataput_in_context.xdc] for cell 'dry_waveform/ila_bram_dataout'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/ila_ram_datain/ila_ram_datain/ila_ram_datain_in_context.xdc] for cell 'dry_waveform/ila_ram_datain'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/ila_ram_datain/ila_ram_datain/ila_ram_datain_in_context.xdc] for cell 'dry_waveform/ila_ram_datain'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rom_wave_triangular/rom_wave_triangular/rom_wave_triangular_in_context.xdc] for cell 'rom_wave_triangular'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rom_wave_triangular/rom_wave_triangular/rom_wave_triangular_in_context.xdc] for cell 'rom_wave_triangular'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rom_wave_sawtooth/rom_wave_sawtooth/rom_wave_sawtooth_in_context.xdc] for cell 'rom_wave_sawtooth'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rom_wave_sawtooth/rom_wave_sawtooth/rom_wave_sawtooth_in_context.xdc] for cell 'rom_wave_sawtooth'
+Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/vio_wave_select/vio_wave_select/vio_wave_select_in_context.xdc] for cell 'vio_wave_select'
+Finished Parsing XDC File [d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/vio_wave_select/vio_wave_select/vio_wave_select_in_context.xdc] for cell 'vio_wave_select'
+Parsing XDC File [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/constrs_1/new/hs_ad_da.xdc]
+WARNING: [Constraints 18-619] A clock with name 'sys_clk' already exists, overwriting the previous clock with the same name. [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/constrs_1/new/hs_ad_da.xdc:2]
+Finished Parsing XDC File [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/constrs_1/new/hs_ad_da.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/constrs_1/new/hs_ad_da.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/hs_ad_da_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/hs_ad_da_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/dont_touch.xdc]
+Finished Parsing XDC File [D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1215.285 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1215.285 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'dry_grid/ila_grid' at clock pin 'clk' is different from the actual clock period '6.737', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'dry_waveform/blk_mem_gen_0' at clock pin 'clkb' is different from the actual clock period '6.737', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'dry_waveform/ila_bram_dataout' at clock pin 'clk' is different from the actual clock period '6.737', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/clk_wiz_pixel/clk_wiz_pixel/clk_wiz_pixel_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/clk_wiz_pixel/clk_wiz_pixel/clk_wiz_pixel_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for HDMI_CLK_N. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for HDMI_CLK_N. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for HDMI_CLK_P. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for HDMI_CLK_P. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for HDMI_TX_N[0]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for HDMI_TX_N[0]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for HDMI_TX_N[1]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for HDMI_TX_N[1]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for HDMI_TX_N[2]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for HDMI_TX_N[2]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for HDMI_TX_P[0]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for HDMI_TX_P[0]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for HDMI_TX_P[1]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for HDMI_TX_P[1]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for HDMI_TX_P[2]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for HDMI_TX_P[2]. (constraint file  d:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 16).
+Applied set_property DONT_TOUCH = true for clk_wiz_pixel. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ila_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rom_wave_sine. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for HDMI_show. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dry_grid/ila_grid. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dry_waveform/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dry_waveform/ila_bram_dataout. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dry_waveform/ila_ram_datain. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rom_wave_triangular. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rom_wave_sawtooth. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for vio_wave_select. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 6     
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 3     
++---Registers : 
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 3     
+	                8 Bit    Registers := 7     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	   4 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module hs_ad_da 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 4     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+Module da_wave_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module ad_wave_rec 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module video_driver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module dry_grid 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module dry_waveform 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[7]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[6]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[5]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[4]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[3]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[2]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[1]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_data[0]
+WARNING: [Synth 8-3331] design ad_wave_rec has unconnected port ad_otr
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'sys_clk'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------+----------+
+|      |BlackBox name       |Instances |
++------+--------------------+----------+
+|1     |ila_grid            |         1|
+|2     |blk_mem_gen_0       |         1|
+|3     |ila_ram_datain      |         1|
+|4     |ila_bram_dataput    |         1|
+|5     |rom_256x8b          |         1|
+|6     |rom_wave_triangular |         1|
+|7     |rom_wave_sawtooth   |         1|
+|8     |vio_wave_select     |         1|
+|9     |ila_0               |         1|
+|10    |rgb2dvi_0           |         1|
+|11    |clk_wiz_pixel       |         1|
++------+--------------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |blk_mem_gen_0       |     1|
+|2     |clk_wiz_pixel       |     1|
+|3     |ila_0               |     1|
+|4     |ila_bram_dataput    |     1|
+|5     |ila_grid            |     1|
+|6     |ila_ram_datain      |     1|
+|7     |rgb2dvi_0           |     1|
+|8     |rom_256x8b          |     1|
+|9     |rom_wave_sawtooth   |     1|
+|10    |rom_wave_triangular |     1|
+|11    |vio_wave_select     |     1|
+|12    |CARRY4              |    17|
+|13    |LUT1                |    11|
+|14    |LUT2                |    22|
+|15    |LUT3                |    14|
+|16    |LUT4                |    17|
+|17    |LUT5                |    23|
+|18    |LUT6                |    35|
+|19    |FDCE                |     9|
+|20    |FDRE                |   139|
+|21    |IBUF                |    10|
+|22    |OBUF                |    10|
++------+--------------------+------+
+
+Report Instance Areas: 
++------+-----------------+-------------+------+
+|      |Instance         |Module       |Cells |
++------+-----------------+-------------+------+
+|1     |top              |             |   352|
+|2     |  u_ad_wave_rec  |ad_wave_rec  |     3|
+|3     |  dry_grid       |dry_grid     |    43|
+|4     |  dry_waveform   |dry_waveform |   126|
+|5     |  u_da_wave_send |da_wave_send |    18|
+|6     |  video_driver   |video_driver |    59|
++------+-----------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1219.266 ; gain = 415.078
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1219.266 ; gain = 287.520
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1219.266 ; gain = 415.078
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1225.625 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1228.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+57 Infos, 59 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1228.574 ; gain = 722.215
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1228.574 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Desktoop/Studio_FPGA/DD1_AD_DA_HDMI/Project_Code/hs_ad_da.runs/synth_2/hs_ad_da.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file hs_ad_da_utilization_synth.rpt -pb hs_ad_da_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 20 19:10:31 2022...
